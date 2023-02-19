@@ -1,9 +1,10 @@
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<?php
+?php
 echo "hello world!";
 echo "<br>";
 $fname = "Bryanlee";
 echo $fname;
 echo "<br>";
+
 #if statement
 $number = 6;
 
@@ -11,6 +12,7 @@ if($number %  2 == 0 || $number % 5 == 0){
     echo  "The $number is even.";
     echo "<br>";
 }
+
 #if else
 $number = 9;
 if($number %  2 == 0 && $number % 5 == 0){
